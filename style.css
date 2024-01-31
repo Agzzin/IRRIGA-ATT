@@ -319,8 +319,13 @@ main section.topo-do-site .img-topo{
     width: 150px;
 }
 
-section.topo-do-site .txt-topo-do-site h1{
-    font-size: 35px;
+.topo-do-site h1{
+    color: white;
+    width: 90%;
+    font-size: 30px;
+    line-height: 110%;
+}
+
 }
 /*fim da main*/
 
