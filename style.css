@@ -315,8 +315,8 @@ section.topo-do-site  .flex{
 /*main*/
  .topo-do-site .img-topo img{
     position: relative;
-    right: 10px;
-    width: 100%;
+    right: -30px;
+    width: 80%;
 }
 
 .topo-do-site h1{
