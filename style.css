@@ -313,10 +313,10 @@ section.topo-do-site  .flex{
 /*fim do heager*/
 
 /*main*/
-main section.topo-do-site .img-topo{
+ .topo-do-site .img-topo img{
     position: relative;
-    right: 100px;
-    width: 100px;
+    right: 10px;
+    width: 100%;
 }
 
 .topo-do-site h1{
