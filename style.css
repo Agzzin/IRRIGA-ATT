@@ -286,9 +286,9 @@ footer .interface .email  {
 }
 
 @media screen and (max-width:980px){
-
+    /*header*/
     header .interface .logo img{
-        width: 125px;
+        width: 100px;
         padding-left: 8%;
         }
     
@@ -310,6 +310,20 @@ section.topo-do-site  .flex{
     justify-content: center;
     gap: 100px;
 }
+/*fim do heager*/
+
+/*main*/
+main section.topo-do-site .img-topo{
+    position: relative;
+    right: 80px;
+    width: 150px;
+}
+
+section.topo-do-site .txt-topo-do-site h1{
+    font-size: 35px;
+}
+/*fim da main*/
+
   /*footer*/
 footer .flex{
     flex-direction: column;
