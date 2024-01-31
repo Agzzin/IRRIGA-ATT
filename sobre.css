@@ -11,7 +11,8 @@ font-family: 'Poppins', sans-serif;
 body{
     background-color: black;
     height: 100vh; 
-    overflow-x: hidde;
+    overflow-y: hidde;
+    overflow-x: hidden;
 }
  
      .btn-contato button{
@@ -205,6 +206,10 @@ section.topo-do-site  .flex{
     text-decoration: none;
 }
 
+  
+  
+
+
 .topo-do-site .img-topo img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
@@ -218,8 +223,8 @@ section.topo-do-site  .flex{
     top: 30px;
   }
 }
-/*PORTIFOLIO*/
 
+/*portifolio*/
 section.portifolio{
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
@@ -268,6 +273,8 @@ section.portifolio{
  .overlay:hover{
     opacity: 1;
  }
+
+
 /* FOOTER */
 footer{
     position: relative;
@@ -332,7 +339,10 @@ footer .interface .email  {
 
 @media screen and (max-width:980px){
 
-    
+    header .interface .logo img{
+        width: 120px;
+        padding-left: 8%;
+    }
 
     .flex{
         flex-direction: column-reverse;
@@ -346,24 +356,47 @@ footer .interface .email  {
     padding: 80% 8%;
 }
 
-section.topo-do-site .interface .img-topo{
+main .topo-do-site .interface .img-topo {
     position: relative;
-    top: 150px;
-
+    top: 90px;
 }
 
 .topo-do-site h1{
     position: relative;
-    top: 150px;
+    top: 30px;
     width: 90%;
     font-size: 32px;
     line-height: 110%;
 }
 
-.topo-do-site .txt-topo-site p{
-    position: relative;
-    top: 150px;
+.topo-do-site p {
+  position: relative;
+  top: 20px;
 }
+
+section.portifolio .interface h2{
+    position: relative;
+    top: -30px;
+    right: -15px;
+    line-height: 40px;
+}
+
+.img-port{
+    width: 100%;
+    min-height: 70vh;
+    height:100%;
+    border-radius: 40px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 1150px;
+    cursor: pointer;
+}
+
+
+section.portifolio .flex{
+    gap: 40px;
+ }
 
 section.topo-do-site  .flex{
     align-items: center;
@@ -378,8 +411,8 @@ footer .flex{
 .line-footer .flex .btn-social{
     position: relative;
     text-align: right;
-    top: 650px;
-
+    top: -150px;
+    
 }
 
 #btn-menu{
@@ -388,45 +421,25 @@ footer .flex{
 
 }
 
-/*Portifolio*/
-section.portifolio{
-    padding: 80px 6%;
-}
+/*footer*/
 
-section.portifolio .interface h2{
+footer .interface .email  {
+    display: flex;       
     position: relative;
-    line-height: 40px;
-    right: -50px;
-    top: 50px;
+    top: 500px;
 }
 
-.img-port{
-    width: 100%;
-    max-width: 360px;
-    height: 100%;
-    border-radius: 40px;
-    background-position: center;
-    background-size: cover;
+.line-footer .btn-social button{
     position: relative;
-    padding-bottom: 460px;
-    top: 1250px;
+    top: 630px;
 }
 
-section.portifolio .flex{
-    gap: 60px;
-}
-
-
-}
-
-/*FOOTER*/
-
-footer .interface .line-footer .logo-footer{
+.line-footer .logo-footer{
     position: relative;
-    top: 800px;
+    top: 623px;
 }
 
-footer .interface .email {
-    position: relative;
-    top: 680px;
 }
+
+
+

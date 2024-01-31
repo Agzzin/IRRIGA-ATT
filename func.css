@@ -327,8 +327,11 @@ footer .interface .email  {
 }
 
 @media screen and (max-width:980px){
-
-    
+   
+    header .interface .logo img{
+        width: 120px;
+        padding-left: 8%;
+    } 
 
     .flex{
         flex-direction: column-reverse;

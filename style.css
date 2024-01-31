@@ -12,7 +12,8 @@ body{
     background-color: black;
     height: 100vh; 
     overflow-y: hidde;
-    overflow-x: hidde;}
+    overflow-x: hidden;
+}
  
      .btn-contato button{
         padding: 10px 40px;
@@ -286,6 +287,10 @@ footer .interface .email  {
 
 @media screen and (max-width:980px){
 
+    header .interface .logo img{
+        width: 125px;
+        padding-left: 8%;
+        }
     
 
     .flex{
@@ -300,18 +305,12 @@ footer .interface .email  {
     padding: 80% 8%;
 }
 
-.topo-do-site h1{
-    width: 90%;
-    font-size: 32px;
-    line-height: 110%;
-}
-
 section.topo-do-site  .flex{
     align-items: center;
     justify-content: center;
     gap: 100px;
 }
-
+  /*footer*/
 footer .flex{
     flex-direction: column;
 }
@@ -323,11 +322,39 @@ footer .flex{
     
 }
 
+footer .interface .email p a{
+    position: relative;
+    color: white;
+    top: 3px;
+}
+
+
+footer .interface .email p svg {
+    top: 10px;
+ }
+ footer .interface .email  {
+    display: flex;       
+    position: relative;
+    top: 100px;
+}
+
+footer .flex .logo-footer{
+    position: relative;
+    top: 220px;
+}
+
+footer .btn-social button {
+    position: relative;
+    top: 220px;
+}
+
+/* fim do footer*/
 #btn-menu{
     display: flex;
     padding-right: 5%;
 
 }
+
 
 }
 
