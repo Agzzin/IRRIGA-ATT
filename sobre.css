@@ -225,10 +225,9 @@ section.topo-do-site  .flex{
 }
 
 /*portifolio*/
- section.portifolio{
+section.portifolio{
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #ffffff1d;
- }
+}
 
  section.portifolio .interface h2{
     position: relative;
@@ -360,7 +359,7 @@ footer .interface .email  {
     position: relative;
     right: -30px;
     width: 80%;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .topo-do-site h1{
@@ -379,7 +378,7 @@ footer .interface .email  {
 
 section.portifolio .interface h2{
     position: relative;
-    top: -140px;
+    top: 90%;
     right: -15px;
     line-height: 40px;
 }
@@ -392,7 +391,7 @@ section.portifolio .interface h2{
     background-position: center;
     background-size: cover;
     position: relative;
-    top: 1040px;
+    top: 490%;
 }
 
 section.portifolio .flex{
