@@ -378,7 +378,7 @@ footer .interface .email  {
 
 section.portifolio .interface h2{
     position: relative;
-    top: 90%;
+    top: -120px;
     right: -15px;
     line-height: 40px;
 }
@@ -391,7 +391,7 @@ section.portifolio .interface h2{
     background-position: center;
     background-size: cover;
     position: relative;
-    top: 490%;
+    top: 440%;
 }
 
 section.portifolio .flex{
@@ -422,21 +422,26 @@ footer .flex{
 }
 
 /*footer*/
+footer{
+    position: relative;
+    margin-top: 500px;
+}
+
 
 footer .interface .email  {
     display: flex;       
     position: relative;
-    top: 500px;
+    top: -50px;
 }
 
 .line-footer .btn-social button{
     position: relative;
-    top: 630px;
+    top: 80px;
 }
 
 .line-footer .logo-footer{
     position: relative;
-    top: 623px;
+    top: 70px;
 }
 
 }
