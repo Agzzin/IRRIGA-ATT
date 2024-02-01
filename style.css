@@ -54,8 +54,8 @@ body{
 
 
 
-.header{
-    padding: 40px 4%;
+header{
+    padding: 20px 4%;
 
 }
 
@@ -373,9 +373,5 @@ footer .btn-social button {
     padding-right: 5%;
 
 }
-
-
-}
-
 
 
