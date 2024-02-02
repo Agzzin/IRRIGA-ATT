@@ -393,6 +393,7 @@ section.portifolio .interface h2{
     background-size: cover;
     position: relative;
     top: 440%;
+    padding-top: 30px;
 }
 
 section.portifolio .flex{
