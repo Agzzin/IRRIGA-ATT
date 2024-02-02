@@ -336,7 +336,9 @@ footer .interface .email  {
     
 }
 
-@media screen and (max-width:980px){
+@media screen and (max-width:360px){
+
+   
 
     header .interface .logo img{
         width: 100px;
@@ -349,6 +351,10 @@ footer .interface .email  {
 
     .menu-desktop, .btn-contato{
         display: none;
+    }
+
+    main{
+        padding: 40px 2%;
     }
 
    section.topo-do-site{
@@ -378,10 +384,10 @@ footer .interface .email  {
 
 section.portifolio .interface h2{
     position: relative;
-    top: -120px;
+    top: 0px;
     right: -15px;
     line-height: 40px;
-    padding-bottom: 40px;
+    padding: 80px 0px;
 }
 
 .img-port{
@@ -392,8 +398,8 @@ section.portifolio .interface h2{
     background-position: center;
     background-size: cover;
     position: relative;
-    top: 440%;
-    padding-top: 30px;
+    top: 520%;
+    padding: 40px 6%;
 }
 
 section.portifolio .flex{
@@ -413,7 +419,7 @@ footer .flex{
 .line-footer .flex .btn-social{
     position: relative;
     text-align: right;
-    top: -150px;
+    top: 0px;
     
 }
 
@@ -426,24 +432,24 @@ footer .flex{
 /*footer*/
 footer{
     position: relative;
-    margin-top: 500px;
+    margin-top: 670px;
 }
 
 
 footer .interface .email  {
     display: flex;       
     position: relative;
-    top: -50px;
+    top: -40px;
 }
 
 .line-footer .btn-social button{
     position: relative;
-    top: 80px;
+    top: -60px;
 }
 
 .line-footer .logo-footer{
     position: relative;
-    top: 70px;
+    top: 80px;
 }
 
 }
