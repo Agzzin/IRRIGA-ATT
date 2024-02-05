@@ -94,7 +94,7 @@ header nav.menu-desktop a:hover{
   
 /* Estilo do menu mobile*/
 #btn-menu{
-    display: none;
+
 }
 
 
@@ -249,7 +249,8 @@ footer .flex{
 
 .line-footer .btn-social{
     position: relative;
-    top: 50px;}
+    top: 50px;
+}
 
 footer .interface .email  {
         display: flex;       
