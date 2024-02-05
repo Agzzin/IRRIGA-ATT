@@ -284,50 +284,36 @@ footer .interface .email  {
 
 @media screen and (max-width:980px){
 
-    
-
-    .flex{
-        flex-direction: column-reverse;
-    }
-
-    .menu-desktop, .btn-contato{
+    header nav.menu-desktop ul li{
         display: none;
-    }
-
-   section.topo-do-site{
-    padding: 80% 8%;
 }
 
-.topo-do-site h1{
-    width: 90%;
-    font-size: 32px;
-    line-height: 110%;
+header{
+    padding: 40 8%;
 }
 
-section.topo-do-site  .flex{
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
+body{
+    padding: 0 1%;
 }
 
-footer .flex{
-    flex-direction: column;
+.btn-contato{
+    display: none;
 }
 
-.line-footer .flex .btn-social{
-    position: relative;
-    text-align: right;
-    top: -150px;
-    
+.logo img{
+    width: 90px;
 }
 
 #btn-menu{
     display: flex;
-    padding-right: 5%;
-
 }
 
+section.topo-do-site .flex{
+    display:block;
+    
 }
 
 
 
+
+}
