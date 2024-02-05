@@ -393,13 +393,12 @@ section.portifolio .interface h2{
 
 .img-port{
     width: 100%;
-    min-height: 60vh;
+    min-height: 55vh;
     height:100%;
     border-radius: 40px;
     background-position: center;
     background-size: cover;
     position: relative;
-    top: 440%;
     padding: 80px 6%;
     
 }
