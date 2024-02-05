@@ -212,6 +212,11 @@ section.topo-do-site  .flex{
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
+.topo-do-site-mob .img-topo img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
 @keyframes flutuar{
   0%{
     top: 0;
@@ -289,7 +294,7 @@ footer .interface .email  {
 }
 
 header{
-    padding: 40 8%;
+    padding: 40 6%;
 }
 
 body{
@@ -300,20 +305,92 @@ body{
     display: none;
 }
 
-.logo img{
-    width: 90px;
-}
+
+
+
+
+/*header*/
 
 #btn-menu{
+    position: relative;
     display: flex;
+    right: 10px;
+}
+
+.logo img{
+    position: relative;
+    top: -15px;
+    width: 90px;
+    right: 12px;
+
+}
+
+
+/*main*/
+
+main{
+    padding: 40px 8%;
 }
 
 section.topo-do-site .flex{
     display:block;
-    
 }
 
 
+section.topo-do-site{
+    display: none;
+}
+
+section.topo-do-site-mob{
+    display: block;
+}
+
+section.topo-do-site-mob .txt-topo-site .img-topo img{
+    width:70%;
+    position: relative;
+    right: -40px;
+    margin-top: -60px;
+}
+
+section.topo-do-site-mob .txt-topo-site h1{
+    padding-top: 40px;
+    line-height: 32px;
+    font-size: 30px;
+}
+    
+section.topo-do-site-mob .txt-topo-site p{
+    text-align: justify;
+
+}
+
+/* fim main*/
+
+/*footer*/
+
+footer{
+    padding: 0 ;
+}
+
+footer .interface .email p a{
+    top: 0px;
+}
+
+footer .interface .email p svg {
+    top: 7px;
+}
 
 
+footer .interface .email  {
+    top:-10px;
+
+}
+
+.line-footer .btn-social{
+    top: 155px;
+}
+
+.line-footer .logo-footer img{
+    position: relative;
+    top: 125px;
+    width: 90px;
 }
