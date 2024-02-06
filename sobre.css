@@ -341,7 +341,7 @@ footer .interface .email  {
    
 
     header .interface .logo img{
-        width: 100px;
+        width: 90px;
         padding-left: 8%;
     }
 
@@ -432,11 +432,12 @@ footer .flex{
 }
 
 /*footer*/
+
 footer{
     position: relative;
-    margin-top: 670px;
+    top: 500px;
+    margin-top: 500px;
 }
-
 
 footer .interface .email  {
     display: flex;       
@@ -457,39 +458,74 @@ footer .interface .email  {
 }
 
 @media screen and (max-width:980px){
-    header nav.menu-desktop ul li{
-        display: none;
-}
-
-header{
-    padding: 40 6%;
-}
-
-body{
-    padding: 0 1%;
-}
-
-.btn-contato{
-    display: none;
-}
-
+    #btn-menu{
+        display: flex;
+        position: relative;
+        top: 15px;
+    }
 /*main*/
 
-main{
-    display: block;
-}
-
-section.topo-do-site .img-topo{
-    width: 80%;
+ section.topo-do-site .img-topo img{
+    width: 70%;
     position: relative;
-    right: 10px;
-}
+    right: -40px;
+ }   
 
-section.portifolio .img-port{
+ section.portifolio .interface h2{
     position: relative;
-    top: 940px;
+    top: -30px;
+ }
+
+ section.portifolio .flex{
     display: block;
+ }
+
+ section.portifolio .img-port{
+    position: relative;
+    top: -130px;
+    min-height: 65vh;
+  
+    
+ }
+
+ /*footer*/
+ footer .line-footer{
+    text-align: center;
     align-items: center;
-    min-height: 60vh;
-}
-}
+  }
+  
+  footer .flex{
+      flex-direction: column;
+  }
+  
+  footer .btn-social{
+      display: inline-block;
+      text-align: center;
+  }
+  
+  footer .interface .email p svg {
+      position: relative;
+      top: 7px;
+      right: -65px;
+  }
+  
+  footer .interface .email p a{
+      top: 0px;
+      right: -65px;
+  }
+  
+  .line-footer .btn-social button{
+    top: -25px;
+    right: 70px;
+  }
+
+  footer .line-footer .logo-footer img{
+    position: relative;
+    top: -80px;
+    right: 10px;
+
+
+  }
+  
+  }
+ 
