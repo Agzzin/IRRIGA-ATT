@@ -249,23 +249,8 @@ footer .flex{
     transition: .2s;
 }
 
-.line-footer .btn-social{
-    position: relative;
-    top: 50px;}
-
-footer .interface .email  {
-        display: flex;       
-        position: relative;
-        top: -100px;
-    
-    }
-
-    footer .interface .email p svg {
-       color: #00FF08;
-       position: relative;
-       top: 20px;
-       
-       
+    footer .email svg{
+        color: #00FF08;
     }
 
     footer .interface .email p a{
@@ -279,6 +264,10 @@ footer .interface .email  {
 
     footer .interface .email p a:hover{
         text-decoration: underline;
+    }
+
+    footer .flex{
+        justify-content: space-between;
     }
 
 
@@ -368,29 +357,26 @@ section.topo-do-site-mob .txt-topo-site p{
 /*footer*/
 
 
-
-footer .interface .email p a{
-    top: 0px;
+footer .line-footer{
+  text-align: center;
 }
 
-footer .interface .email p svg {
+footer .flex{
+    flex-direction: column;
+}
+
+footer .btn-social{
+    display: inline-block;
+}
+
+footer .email svg{
+    position: relative;
     top: 7px;
 }
 
-
-footer .interface .email  {
-    top:-10px;
-
+footer .interface .email p a{
+    top: -0px;
 }
 
-.line-footer .btn-social{
-    top: 155px;
-}
-
-.line-footer .logo-footer img{
-    position: relative;
-    top: 125px;
-    width: 90px;
-}
 
 }
