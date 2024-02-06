@@ -329,73 +329,41 @@ footer .interface .email  {
 }
 
 @media screen and (max-width:980px){
-   
-    header .interface .logo img{
-        width: 100px;
-        padding-left: 8%;
-    } 
 
-  
-    .flex{
-        flex-direction: column-reverse;
-    }
+    /*header*/
 
-    .menu-desktop, .btn-contato{
+    header nav.menu-desktop ul li{
         display: none;
     }
 
-   section.topo-do-site{
-    padding: 80% 8%;
-}
+    .btn-contato button{
+        display: none;
+    }
 
-section.topo-do-site  .flex{
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-}
+    header .logo img{
+        width: 90px;
+    }
 
-.topo-do-site .img-topo img {
-    top: -500px;
-    right: -30px;
-    width: 80%;
-    margin-top: -800px;
-    margin-bottom: 150px;
-}
+    #btn-menu{
+        position: relative;
+        top: 15px;
+        display: flex;
+    }
+
+    /*main*/
+
+    a.neon{
+        display: block;
+    }
 
 
-a.neon{
-   top: -80vh;
-   right: -30vw;
-}
+    section.topo-do-site .interface img{
+        width: 60%;
+        position: relative;
+        right: -65px;
+    }
 
-a.neon{
-    display: inline-block;
-    text-decoration: none;
-    font-size: 30px;
-    color:#00FF08 ;
-    border: 4px solid #00FF08;
-    padding: 12px 40px;
-    border-radius: 16px;
-}
-
-footer .flex{
-    flex-direction: column;
-}
-
-.line-footer .flex .btn-social{
-    position: relative;
-    text-align: right;
-    top: -150px;
-    
-}
-
-#btn-menu{
-    display: flex;
-    padding-right: 5%;
 
 }
-
-}
-
-
-
+   
+   
