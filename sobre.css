@@ -456,124 +456,40 @@ footer .interface .email  {
 
 }
 
-@media screen and (max-width:428px){
-
-   
-
-    header .interface .logo img{
-        width: 100px;
-        padding-left: 8%;
-    }
-
-    .flex{
-        flex-direction: column-reverse;
-    }
-
-    .menu-desktop, .btn-contato{
+@media screen and (max-width:980px){
+    header nav.menu-desktop ul li{
         display: none;
-    }
-
-    main{
-        padding: 40px 2%;
-    }
-
-   section.topo-do-site{
-    padding: 80% 8%;
 }
 
-.topo-do-site .img-topo img{
-    position: relative;
-    right: -30px;
+header{
+    padding: 40 6%;
+}
+
+body{
+    padding: 0 1%;
+}
+
+.btn-contato{
+    display: none;
+}
+
+/*main*/
+
+main{
+    display: block;
+}
+
+section.topo-do-site .img-topo{
     width: 80%;
-    margin-top: 150px;
-}
-
-.topo-do-site h1{
     position: relative;
-    top: -50px;
-    width: 90%;
-    font-size: 32px;
-    line-height: 110%;
+    right: 10px;
 }
 
-.topo-do-site p {
-  position: relative;
-  top: -60px;
-  text-align: justify;
-}
-
-section.portifolio .interface h2{
+section.portifolio .img-port{
     position: relative;
-    top: 0px;
-    right: -15px;
-    line-height: 40px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-.img-port{
-    width: 100%;
-    min-height: 65vh;
-    height:100%;
-    border-radius: 40px;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    top: 440%;
-    padding: 80px 6%;
-    
-}
-
-
-section.portifolio .flex{
-    gap: 40px;
- }
-
-section.topo-do-site  .flex{
+    top: 940px;
+    display: block;
     align-items: center;
-    justify-content: center;
-    gap: 100px;
+    min-height: 60vh;
 }
-
-footer .flex{
-    flex-direction: column;
 }
-
-.line-footer .flex .btn-social{
-    position: relative;
-    text-align: right;
-    top: 0px;
-    
-}
-
-#btn-menu{
-    display: flex;
-    padding-right: 5%;
-
-}
-
-/*footer*/
-footer{
-    position: relative;
-    margin-top: 670px;
-}
-
-
-footer .interface .email  {
-    display: flex;       
-    position: relative;
-    top: -40px;
-}
-
-.line-footer .btn-social button{
-    position: relative;
-    top: -60px;
-}
-
-.line-footer .logo-footer{
-    position: relative;
-    top: 80px;
-}
-
-}
-
