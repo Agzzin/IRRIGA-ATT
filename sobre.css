@@ -477,11 +477,7 @@ footer .interface .email  {
 
  section.portifolio .interface h2{
     position: relative;
-    top: -30px;
- }
-
- section.portifolio .flex{
-    display: block;
+    top: -90px;
  }
 
  section.portifolio .img-port{
@@ -494,6 +490,8 @@ footer .interface .email  {
 
  /*footer*/
  footer .line-footer{
+    position: relative;
+    top: 300px;
     text-align: center;
     align-items: center;
   }
