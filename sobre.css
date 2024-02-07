@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/*estilo geral*/
 
 *{
     margin: 0;
@@ -10,57 +10,35 @@ font-family: 'Poppins', sans-serif;
 
 body{
     background-color: black;
-    height: 100vh; 
-    overflow-y: hidde;
-    overflow-x: hidden;
+    height: 100vh;
 }
- 
-     .btn-contato button{
-        padding: 10px 40px;
-        font-size: 18px;
-        font-weight: 600;
-        background-color: #00FF08;
-        border-radius: 30px;
-        cursor: pointer;
-        border: 0;
-        text-decoration: none;
-    }
-    
-    
-
-
-
-
-
-
-
-
-.flex{
-    display: flex;
-    height: 240px ;
-
-    
-
-
-}
-
 
 .interface{
     max-width: 1280px;
-    margin:0 auto;
-   
+    margin: 0 auto;
+}
 
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
 }
 
 
+/*estilo do cabeçalho*/
 
 header{
-    padding: 20px 2%;
-
+    padding: 40px 4%;
 }
-
-
-
 
 header > .interface{
     display: flex;
@@ -69,146 +47,61 @@ header > .interface{
 }
 
 header a{
-    color: rgb(86, 86, 86);
+    color: #5c5c5c;
     text-decoration: none;
     display: inline-block;
-    transition: 2s;
+    transition: 1s;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.05);
 }
 
 header nav ul{
     list-style-type: none;
 }
 
-header nav.menu-desktop ul li{
+header nav ul li{
     display: inline-block;
-    padding: 0 40px;
+    padding: 0px 40px;
 }
-header nav.menu-desktop a:hover{
-    color: white;
+
+ 
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #00ff08;
     transform: scale(1.05);
-
 }
+/* Topo do site*/
 
-
-/*Final do cabeçalho */
-  
-/* Estilo do menu mobile*/
-#btn-menu{
-    display: none;
-}
-
-
-.btn-abrir svg{
-    color: #00FF08;
-
-
-}
-
-
-.overlay-menu{
-    background-color: rgba(0, 0, 0, 0.627);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 88888;
-    display: none;
-}
-
-.menu-mobile{
-    background-color: black;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 99999;
-    width: 0%;
-    overflow: hidden;
-    transition: 1s;
-
-}
-
-.menu-mobile.abrir-menu{
-    width: 70%;
-}
-
-.menu-mobile.abrir-menu ~ .overlay-menu{
-     display: block;
-     
-}
-
-.menu-mobile nav ul{
-    text-align: right;
-}
-
-.menu-mobile nav ul li a{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 300;
-    padding: 20px 8%;
-    display: block;
-}
-
-.menu-mobile nav ul li a:hover{
-    background-color: #00FF08;
-    color: black;
-}
-
-.menu-mobile .btn-fechar{
-    padding: 20px 5%;
-}
-
-.menu-mobile .btn-fechar svg{
-     color: #00FF08;
-     font-size: 40px;    
-}
-
-/* Começo do main*/
 section.topo-do-site{
-    padding: 100px 4%;
+    padding: 40px 4%;
 }
 
-
-section.topo-do-site  .flex{
+section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
     gap: 90px;
-
 }
-.topo-do-site h1{
+
+.topo-do-site .txt-topo-site h1{
     color: white;
-    width: 90%;
-    font-size: 40px;
-    line-height: 110%;
+    font-size: 45px;
+    line-height: 48px;
 }
 
-
-
-
- span{
+.topo-do-site h1 span{
     color: #00ff08;
-  
- }
-
- 
- 
-
- .btn button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #00FF08;
-    border-radius: 30px;
-    cursor: pointer;
-    border: none;
-    display: flex;
-    text-decoration: none;
+    font-size: 45px;
 }
 
-  
-  
 
+.topo-do-site .txt-topo-site p{
+    color: white;
+    text-align: justify;
+    margin: 20px 0px;
+}
 
 .topo-do-site .img-topo img{
     position: relative;
@@ -216,69 +109,74 @@ section.topo-do-site  .flex{
 }
 
 @keyframes flutuar{
-  0%{
-    top: 0;
-  }
-  100%{
-    top: 30px;
-  }
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
 }
 
-/*portifolio*/
+
+/*ESTILO PORTIFOLIO*/
+
 section.portifolio{
     padding: 80px 4%;
+    box-shadow: 0px 0px 40px 10px #ffffff1d;
 }
 
- section.portifolio .interface h2{
-    position: relative;
-    right:-400px;
-    font-size: 40px;
-    padding-top: 150px;
-    padding-bottom: 50px;
- } 
-
- section.portifolio .flex{
-    gap: 60px;
+section.portifolio .flex{
+    justify-content: space-around;
     margin-top: 60px;
- }
+}
 
- .img-port{
+section.portifolio .interface h2{
+    color: white;
+    font-size: 44px;
+    text-align: center;
+}
+
+section.portifolio .interface span{
+    color: #00ff08;
+}
+
+
+.img-port{
     width: 360px;
     height: 460px;
-    border-radius: 40px;
-    background-position: center;
     background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    cursor: pointer;
     position: relative;
- }
+}
 
- .overlay{
+.overlay{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: #000000b8;
     border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     color: white;
     opacity: 0;
     transition: 1s;
- }
+}
 
- .overlay:hover{
+.overlay:hover{
     opacity: 1;
- }
+}
 
+/* footer*/
 
-/* FOOTER */
 footer{
-    position: relative;
-    top:480px ;
-    padding: 0px 4%;
+    padding: 60px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
@@ -286,227 +184,52 @@ footer .flex{
     justify-content: space-between;
 }
 
-.line-footer .btn-social button{
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #00ff08;
+}
+
+footer .line-footer .btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 0;
-    background-color: #00FF08;
+    border: none;
+    background-color: #00ff08;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
-    transition: .2s;
-}
-
-.line-footer .btn-social{
-    position: relative;
-    top: 50px;}
-
-footer .interface .email  {
-        display: flex;       
-        position: relative;
-        top: -100px;
-    
-    }
-
-    footer .interface .email p svg {
-       color: #00FF08;
-       position: relative;
-       top: 20px;
-       
-       
-    }
-
-    footer .interface .email p a{
-        position: relative;
-        padding-top: 20px;
-        top: 15px;
-        color: white;
-        text-decoration:none ;
-        padding-left: 3px;
-    }
-
-    footer .interface .email p a:hover{
-        text-decoration: underline;
-    }
-
-
-.borda{
-    border-top: 2px solid #00FF08;
+    transition: 1s;
     
 }
 
-@media screen and (max-width:980px){
-
-   
-
-    header .interface .logo img{
-        width: 90px;
-        padding-left: 8%;
-    }
-
-    .flex{
-        flex-direction: column-reverse;
-    }
-
-    .menu-desktop, .btn-contato{
-        display: none;
-    }
-
-    main{
-        padding: 40px 2%;
-    }
-
-   section.topo-do-site{
-    padding: 80% 8%;
+footer .line-footer .btn-social button:hover{
+    transform:scale(1.05) ;
 }
 
-.topo-do-site .img-topo img{
+footer .line-footer p{
+    color: #00ff08;
+    font-size: 20px;
+}
+
+footer .line-footer p a{
+    color: white;
+    font-size: 15px;
+}
+
+footer .line-footer p svg{
     position: relative;
-    right: -30px;
-    width: 80%;
-    margin-top: 150px;
+    top: 7px;
 }
 
-.topo-do-site h1{
-    position: relative;
-    top: -50px;
-    width: 90%;
-    font-size: 32px;
-    line-height: 110%;
-}
-
-.topo-do-site p {
-  position: relative;
-  top: -60px;
-  text-align: justify;
-}
-
-section.portifolio .interface h2{
-    position: relative;
-    top: 0px;
-    right: -15px;
-    line-height: 40px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-.img-port{
-    width: 100%;
-    min-height: 55vh;
-    height:100%;
-    border-radius: 40px;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    padding: 80px 6%;
-    
+footer .logo-footer img{
+    width: 120px;
+    padding-bottom: 20px;
 }
 
 
-section.portifolio .flex{
-    gap: 40px;
- }
-
-section.topo-do-site  .flex{
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
+footer .line-footer .btn-social {
+    padding-top: 50px;
 }
-
-footer .flex{
-    flex-direction: column;
-}
-
-.line-footer .flex .btn-social{
-    position: relative;
-    text-align: right;
-    top: 0px;
-    
-}
-
-#btn-menu{
-    display: flex;
-    padding-right: 5%;
-
-}
-
-/*footer*/
-
-footer{
-    position: relative;
-    top: 500px;
-    margin-top: 500px;
-}
-
-footer .interface .email  {
-    display: flex;       
-    position: relative;
-    top: -40px;
-}
-
-.line-footer .btn-social button{
-    position: relative;
-    top: -60px;
-}
-
-.line-footer .logo-footer{
-    position: relative;
-    top: 80px;
-}
-
-}
-
-@media screen and (max-width:980px){
-    #btn-menu{
-        display: flex;
-        position: relative;
-        top: 15px;
-    }
-/*main*/
-
- section.topo-do-site .img-topo img{
-    width: 70%;
-    position: relative;
-    right: -40px;
- }   
-
- section.portifolio .flex{
-    display: block;
- }
-
- section.portifolio .flex .txt-topo-site{
-    display: block;
- }
- section.portifolio .interface h2{
-    display: block;
-    position: relative;
-    top: -90px;
- }
-
- section.portifolio .img-port{
-    position: relative;
-    top: -130px;
-    min-height: 65vh;
-  
-    
- }
-
- /*footer*/
-
- footer .flex{
-    display: block;
- }
-
- footer .line-footer{
-    text-align: center;
- }
-
- footer .btn-social{
-    display: inline-block;
- }
-
- footer .email a svg{
-    text-align: center;
- }
- 
