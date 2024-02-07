@@ -475,7 +475,11 @@ footer .interface .email  {
     display: block;
  }
 
+ section.portifolio .flex .txt-topo-site{
+    display: block;
+ }
  section.portifolio .interface h2{
+    display: block;
     position: relative;
     top: -90px;
  }
@@ -489,45 +493,20 @@ footer .interface .email  {
  }
 
  /*footer*/
+
+ footer .flex{
+    display: block;
+ }
+
  footer .line-footer{
-    position: relative;
-    top: 300px;
     text-align: center;
-    align-items: center;
-  }
-  
-  footer .flex{
-      flex-direction: column;
-  }
-  
-  footer .btn-social{
-      display: inline-block;
-      text-align: center;
-  }
-  
-  footer .interface .email p svg {
-      position: relative;
-      top: 7px;
-      right: -65px;
-  }
-  
-  footer .interface .email p a{
-      top: 0px;
-      right: -65px;
-  }
-  
-  .line-footer .btn-social button{
-    top: -25px;
-    right: 70px;
-  }
+ }
 
-  footer .line-footer .logo-footer img{
-    position: relative;
-    top: -80px;
-    right: 10px;
+ footer .btn-social{
+    display: inline-block;
+ }
 
-
-  }
-  
-  }
+ footer .email a svg{
+    text-align: center;
+ }
  
