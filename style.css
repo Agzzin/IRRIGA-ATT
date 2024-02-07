@@ -89,6 +89,10 @@ section.topo-do-site .flex{
     gap: 90px;
 }
 
+.topo-do-site .interface .img-topo img{
+    width: 300px;
+}
+
 .topo-do-site .txt-topo-site h1{
     color: white;
     font-size: 42px;
@@ -123,8 +127,10 @@ section.topo-do-site .flex{
 /* footer*/
 
 footer{
-    padding-top: 60px;
-    padding: 0px 4%;
+    
+    padding-top: 100px;
+    padding-right: 4%;
+    padding-left: 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
@@ -197,17 +203,26 @@ footer .line-footer .btn-social {
 
     /*main*/
 
+
+   section.topo-do-site{
+    padding: 0 7% ;
+   }
+
     main .flex{
         flex-direction: column-reverse;
+        
     }
+
 
     .topo-do-site .txt-topo-site h1{
         line-height: 44px;
+        font-size: 40px;
     }
 
     .topo-do-site .txt-topo-site p{
         margin-top: 20px;
+        text-align: justify;
 }
     
 
-    
+}
