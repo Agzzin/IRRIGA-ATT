@@ -205,7 +205,7 @@ footer .line-footer .btn-social {
 
 
    section.topo-do-site{
-    padding: 0 7% ;
+    padding: 0 9% ;
    }
 
     main .flex{
@@ -225,11 +225,12 @@ footer .line-footer .btn-social {
 
 
     .topo-do-site .txt-topo-site h1{
-        line-height: 44px;
-        font-size: 40px;
+        line-height: 38px;
+        font-size: 35px;
     }
 
     .topo-do-site .txt-topo-site p{
+        
         margin-top: 20px;
         text-align: justify;
 }
