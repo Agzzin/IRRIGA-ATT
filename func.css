@@ -245,6 +245,10 @@ footer .line-footer .btn-social {
 
     /*main*/
 
+    main{
+        padding: 0 10%;
+    }
+
     .img-centro img{
         width: 75%;
     }
@@ -300,4 +304,3 @@ footer .line-footer .btn-social {
     }
 
 
-}
