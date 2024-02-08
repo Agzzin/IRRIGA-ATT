@@ -213,6 +213,16 @@ footer .line-footer .btn-social {
         
     }
 
+    .topo-do-site .flex .img-topo img{
+        width: 75%;
+    }
+
+    .topo-do-site .flex .img-topo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 
     .topo-do-site .txt-topo-site h1{
         line-height: 44px;
@@ -223,6 +233,34 @@ footer .line-footer .btn-social {
         margin-top: 20px;
         text-align: justify;
 }
-    
+
+footer{
+    padding: 20px 2%;
+}
+
+footer .flex{
+    display: block;
+    text-align: center;
+}
+
+footer .line-footer .btn-social {
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+footer .logo-footer img{
+    width: 120px;
+}
+
+footer .line-footer p {
+    display: flex;
+    justify-content: center; 
+    gap: 4px;   
+}
+
+footer .line-footer p svg{
+    position: relative;
+    top: 4px;
+}
 
 }
