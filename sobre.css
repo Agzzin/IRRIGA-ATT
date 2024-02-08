@@ -233,3 +233,96 @@ footer .logo-footer img{
 footer .line-footer .btn-social {
     padding-top: 50px;
 }
+
+
+@media screen and (max-width:1020px) {
+
+    /*header*/
+
+    .menu-desktop , .btn-contato{
+        display: none;
+    }
+
+    header .interface .logo img{
+        width: 90px;
+    }
+
+    /*main*/
+  main .flex{
+    flex-direction: column-reverse;
+    
+  }
+
+  section.topo-do-site .interface .img-topo img{
+    width: 75%;
+  }
+
+  .topo-do-site .flex .img-topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.topo-do-site .interface .txt-topo-site h1{
+    font-size: 35px;
+    line-height: 40px;
+    padding: 0 10%;
+}
+
+section.topo-do-site .interface .txt-topo-site span{
+    font-size: 35px;
+    line-height: 40px;
+}
+
+section.topo-do-site .interface .txt-topo-site p{
+    text-align: justify;
+    padding: 0 10%;
+}
+
+section.portifolio .interface h2{
+    text-align: center;
+    line-height: 40px;
+    font-size: 35px;
+}
+
+section.portifolio .interface .flex .img-port{
+    width: 100%;
+    padding: 0px 20%;
+}
+
+/*footer*/
+
+footer{
+    height:65%;
+}
+
+footer{
+    padding: 20px 2%;
+}
+
+footer .flex{
+    display: block;
+    text-align: center;
+}
+
+footer .line-footer .btn-social {
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+footer .logo-footer img{
+    width: 120px;
+}
+
+footer .line-footer p {
+    display: flex;
+    justify-content: center; 
+    gap: 4px;   
+}
+
+footer .line-footer p svg{
+    position: relative;
+    top: 4px;
+}
+
+}
