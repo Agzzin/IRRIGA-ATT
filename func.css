@@ -232,4 +232,72 @@ footer .logo-footer img{
 footer .line-footer .btn-social {
     padding-top: 50px;
 }
-   
+
+@media screen and (max-width:1020px)  {
+    /*header*/
+
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+    .interface .logo img{
+        width: 90px;
+    }
+
+    /*main*/
+
+    .img-centro img{
+        width: 75%;
+    }
+
+    .topo-do-site .flex .img-centro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .interface{
+        text-align: center;
+    }
+
+    .neon{
+        vertical-align: middle;
+        text-decoration: none;
+        font-size: 40px;
+        padding: 15px 50px;
+    }
+
+    /*footer*/
+
+    footer{
+        padding: 20px 2%;
+    }
+    
+    footer .flex{
+        display: block;
+        text-align: center;
+    }
+    
+    footer .line-footer .btn-social {
+        padding: 0;
+        padding-bottom: 15px;
+    }
+    
+    footer .logo-footer img{
+        width: 120px;
+    }
+    
+    footer .line-footer p {
+        display: flex;
+        justify-content: center; 
+        gap: 4px;   
+    }
+    
+    footer .line-footer p svg{
+        position: relative;
+        top: 4px;
+    }
+    
+    }
+
+
+}
