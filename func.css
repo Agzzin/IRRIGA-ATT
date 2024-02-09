@@ -53,7 +53,7 @@ header a{
     transition: 1s;
 }
 
-header a:hover{
+header nav.menu-desktop a:hover{
     color: white;
     transform: scale(1.05);
 }
@@ -62,7 +62,7 @@ header nav ul{
     list-style-type: none;
 }
 
-header nav ul li{
+header nav.menu-desktop ul li{
     display: inline-block;
     padding: 0px 40px;
 }
@@ -113,7 +113,8 @@ header nav ul li{
     font-weight: 300;
     padding: 20px 8%;
     display: block;
-    text-decoration: none
+    text-decoration: none;
+    display: block;
 }
 
 .menu-mobile nav ul li a:hover{
