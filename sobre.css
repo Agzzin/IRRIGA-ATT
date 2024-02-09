@@ -33,6 +33,9 @@ body{
     transition: 1s;
 }
 
+.btn-abrir-menu{
+    display: none;
+}
 
 /*estilo do cabeçalho*/
 
@@ -200,6 +203,7 @@ section.portifolio .interface h2{
     color: white;
     font-size: 44px;
     text-align: center;
+    line-height: 40px;
 }
 
 section.portifolio .interface span{
@@ -302,6 +306,12 @@ footer .line-footer .btn-social {
 
 
 @media screen and (max-width:1020px) {
+    /*estilo-geral*/
+
+    .btn-abrir-menu{
+        display: flex;
+    }
+
 
     /*header*/
 

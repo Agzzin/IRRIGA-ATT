@@ -33,6 +33,10 @@ body{
     transition: 1s;
 }
 
+.btn-abrir-menu{
+    display: none;
+}
+
 
 /*estilo do cabeçalho*/
 
@@ -298,6 +302,12 @@ footer .line-footer .btn-social {
 }
 
 @media screen and (max-width:1020px)  {
+    /*estilo geral*/
+
+    .btn-abrir-menu{
+        display: flex;
+    }
+
     /*header*/
 
     .menu-desktop, .btn-contato{
