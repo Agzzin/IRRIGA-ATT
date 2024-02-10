@@ -185,7 +185,7 @@ main .flex{
     background-color: #00ff08;
     left: 0;
     top: 120%;
-    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.25);
     filter: blur(64px);
     opacity: 0.7;
 }
