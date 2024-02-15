@@ -1,37 +1,53 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
-    <link rel="stylesheet" href="cadastro.css">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Inventário</title>
+    <link rel="stylesheet" href="cadas.css">
 </head>
 <body>
-                    <div id="login">
-                             <div class="caixa">
-                             <img src="imagens/testando verde 3.png" alt="" width="250px">
-                                 <h1>Cadastro</h1>
-                                 <div class="nome">
-                                 <input type="text" placeholder="Nome">
-                                    </div>
-                                 <div class="email">
-                                 <input type="email" placeholder="E-mail">
-                                 </div>
-                                 <div class="Senha">
-                                 <input type="password" placeholder="Senha">
-                                  </div>
-                                  <div class="Senha">
-                                 <input type="password" placeholder="Confirme a Senha">
-                                 </div>
-                          <div class="Entrar">
-                          <p>Já tem uma conta? <a href="login.html">Entre aqui</a></p>
-                          <input type="submit" value="Entrar">
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         </div>
-
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inventário</title>
+        <link rel="stylesheet" href="cadastro.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="form-wrapper sign-in">
+              <form action="">
+                <h2>Cadastro</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Nome</label>
+                </div>
+                <div class="input-group">
+                    <input type="text"  required>
+                    <label for="">E-mail</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">Senha</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">Confirme sua Senha</label>
+                </div>
+                <div class="remember">
+                    <label for=""><input type="checkbox" required> Eu aceito os termos & condições</label>
+                </div>
+                <button type="submit">Faça seu Cadastro</button>
+                <div class="signUp-link">
+                    <p>Voce já tem uma conta?<a href="login.html" class="signUpBtn-link">  Entre.</a></p>
+                </div>
+              </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
 </body>
 </html>
