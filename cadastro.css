@@ -127,10 +127,10 @@ button{
 @media screen and (max-width:780px) {
     /*conf gerais*/
     .wrapper{
-        width: 45vh;
+        width: 40vh;
     }
 
     .input-group{
-        width: 270px;
+        width: 200px;
     }
 }
